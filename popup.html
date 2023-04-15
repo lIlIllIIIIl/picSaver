@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>
+        <img class="extLogo" src="./images/icon-16.png">
+        picsaver
+    </h1>
+    <div style="display: flex; flex-direction: column;">
+        <div id="imagesPrev" style="display: flex; flex-direction: row; flex-wrap: wrap;"></div>
+    </div>
+    <div class="buttonsContainer">
+        <button id="prevButton">Prévisualiser</button>
+        <button id="downloadButton">Télécharger</button>
+    </div>
+    <div id="urlsContainer" class="urlsContainer">
+        <h2>Urls</h2>
+        <div id="urls"></div>
+    </div>
+</body>
+<script src="/lib/jszip.min.js"></script>
+<script src="./scripts/page.js"></script>
+<script src="./scripts/popup.js"></script>
+</html>
