@@ -11,3 +11,7 @@
 ### 5. Chargez le dossier picSaver que vous avez téléchargé
 
 ### 6. Profitez de l'extension picSaver
+
+
+
+Si ça ne fonctionne pas, essayez de suivre ces indications : https://support.google.com/chrome/a/answer/2714278?hl=fr
